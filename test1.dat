@@ -1,0 +1,25 @@
+Git basic commands process
+git --version
+git config --global user.email 'your@mmail.com'
+git config --global user.name 'name'
+git init
+git status
+git add
+git commit -m "message"
+git remote add origin https://github.com/imrealsandeep/repo1.git
+git push -u origin master
+
+#Create Branch
+git branch "branch name"
+#Checkout Branch
+git checkout "branch name"
+#merge Brnach to master (first check out to master to merge in master)
+git merge "branch name"
+#delete branch
+git braanch -d "branch name" --delete from local
+git push origin --delete "branch " --delete from remote
+
+# send email from github
+Github - Repository-Settings -Integration & services - add email
+
+
