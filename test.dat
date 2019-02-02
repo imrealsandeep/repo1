@@ -1,0 +1,7 @@
+git --version
+git init
+git status
+git add
+git commit -m "message"
+git remote add origin https://github.com/imrealsandeep/repo1.git
+git push -u origin master
