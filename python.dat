@@ -1,0 +1,895 @@
+it is a open source and concise code , huge libraries are avaiable !
+python 3 languuge develop as independent langugae , pthon 2 and 3 are not compatible with each other , these are different programing language it is completely deifferently languge , highly recommended go for python 3 . from 2020 onwards there is no support for python 2 languge ..
+print('welom to pyhton');10 >20 ;10 > 20 ;10+2;exit() to exit the command promp ; cntrl + N
+1 >> n=int(input('enter some number')) 
+for i in range(n):
+	print('hello getting errors is very common . opne google to resove')
+
+in older days we hve some convention that c language is mother tounge for the all languages , but now a days it is recommended it is pyton to learn as it is like english to speak and learn. fellings like nurcery langugage
+
+it  is  a general purpose high level programmming languges , means it is use for most of all development , high level languge means it is not  like asembly level and it is consider as low level languge . ie. human understanble languge is known as high level languge .like -: AI, machine learning , we developement etc
+
+Gudo van rossam == 1989 he gifted this pyhton language while working at nattional ressearch insitute in netherland but officailly available to public in 20th FEB 1991 DOB.
+
+2>> no data type tention  >> a,b=10,20 result >> print(a+b); 30 =: we can write a complex logics with in single or few lines of the code , here a and  b is int type but in other languge is staticllay type progmmaning language , but in python type termenolgy is   not requeired . python will take care internally . use type(10) or type('10'); 
+Python is dyanamillcay typed langugage
+
+Python have features :-
+1.functional programming is from c ; write a function call that function
+2. oops from c++
+3.scripting languages features from perl and sctipting 
+4. modular programming features from modula 3. means the program is divided into modules .
+5. most of the syntax is borroweb from c language and abc language even it is interpredeted languages like scripting languages
+ex. def f1() : print("hello");
+
+where we can use pyton 
+1 desktop applications , 2 we can develop web applications using django , flask , 3 database applications , For networking we can use , development of the games , data analysis where we can use most of the datascience . 7 machice learning application , develop AI applications , the IOT applications . but mobile based applications it is not recommended ! may be in future it will overcome
+one more feature thats the python is platform independent programming languge , wora . Portability :- moving python program from windows machine to linux machine without manipulation of code 
+Lymbda is there in python from day one onwards but in jva it come in 1.8
+Embeded : we can use pyhton with any other  laguggees , it gives very good compatibilty.
+Extensive Library :- lots of batteries are there.
+Flavours of Python :- 
+1) Cpython 
+2) Jython or Jpython
+3) Iron Python /- develop to work with c#
+4) Pypy :- python for speed , internally it will use to improve the performance
+5)AnacondaPyton :- for huge data
+6)stackless :- Python for multithreading
+
+
+Identifiers :- It may be variable , function name or class name 
+ if x =10 then x is a identifier :
+===============================
+1)def f1() : print("hello") :- here f1() is the identifiers
+
+Rules to define identifiers in Python :-
+=======================================
+1. alphabet symbols with both upper case or lower case 
+2. digits (0-9)
+3. sysmbols (underscores)
+
+ex. if=20 then it is invalid because it is reserved words . we are not able to use keywords as identifier.
+
+max lenght allowed for python identifer := no lenght limit for python identitfer
+
+IMP about_identifier :- 
+===============
+start's with _ (underscore) := private
+start's wiht __(double underscore) := strongly private
+start's with and with _var_ := this one is the special variable create by pyt
+on itsef .
+=====================================================================================================================================================
+
+Reserved Words :-
+----------------------
+33 reserved words to represent some functionality .
+
+==>Boolean 1)True 	2)False	 3)None
+==>operator 4 ) and 	 5) or 	 6)not 	 7) is
+==>conditions 8)if 	9)elif	 10) 	else
+==>loops 11)while 12 ) for 13)break 14)continue 15)return 16)in 17) yield
+==>exception	 18)try 	19)except like catch 20) finally 	21) raise 22 ) 	assert
+==>23)	import 24)	from 25)	as 26)	class 27)	def 28)		pass
+==29)global 30 ) lamba 31)del 32)nonlocal 33)with
+
+
+Note :- all reserved words contains only alpahbet symbols and except first three as bollean all reserved words contain lower case
+it is case sensitive langugage
+
+import keyword -- it is a module in python 
+keyword.kwlist
+===================================================================
+====================
+|   Data Types :-  |
+====================
+*int 	:- 10,20,30,40
+*float	:- 10.20,13.4,14.6
+*complex :- 10+2j , 11+j
+*str 	:- 'sahil'
+*bol :- true false
+*bytes 
+*bytearray 
+*range
+*list
+*tupple
+*set
+*fronzenset
+*dict :- like map / hash
+*None :- nohting
+
+Inbuild function : print(),type(),id()
+
+
+** In python everthing is an object **
+------------------------------------------------
+int :- no range the in python for int data type
+-----------------------------------------------
+a=11111 :- run | decimal value
+a=0b1111 :- run ==> 3 | binary value
+a=0o777 :- 511 ==> | octal number
+a=0x777 :- 1911 | hexa decimal value
+
+function for python int {bin()	oct()	hex() } any value we can make into corresponding value.
+
+
+
+float :- for floaating type we are not  able to convert to other types like ocatl , hexA only we need  to take decimal only ex .f=0X123.345 ;- error
+exponetital form is allowed like f=1.2e3 values is 1200.0 
+
+----------------------
+|complex datatype :- |
+----------------------
+
+a+bj
+
+a=real part
+b=imiginary part
+j^2 =-1
+
+x=0B11111+20j :- valid
+x=10+20j
+
+bool :- internally this true and false values like int values ie TRUE + TRUE === > 2
+
+TRUE + False ==>1 
+
+----------
+|str  := |
+----------
+
+it is an object  type , use single quotes or double quotes or triple quotes.
+
+---------Slice operator ---------------(IMP)
+" a[begin:end:step] " ::-> in python index starts  with zero only .
+s='apple' -> s[0] -> a ; s[-1] -> e
+in pyhton we can go left to right or right to left 
+this slice is apply for all collections in python
+a='durga'
+a[begin:end] 
+returns substring from begin index to end -1 index
+a[1:4]-->  urg
+clearly specyfing that first is the index and second argument is also the index but it is idex-1
+
+s[-1:-4] --> '' because begin value is the lower and end value is the heigher
+s='durga'*10 ->10times durga
+len(s):- to find lenght
+
+type casting :- int()	float()	complex() 	bool()	str()
+
+All fundamental data types are immutable in nature except list means once we create a object then we are not able to change that object this behaviour is known as immutability , we are not able to change the content .
+
+mutable :- changing(list)
+immutable :- non changeable
+ex. x=10 ; x=11 here in this examples we created two different objects . use id to know more about this objects
+
+here we have x=10 , y=10 ,z=10 ...then we are here asuured that all these x,y,z are pointing to same object 10.
+
+why immutable :- to increase the performance as all variable is poiinting to same obejct and not consuming different memeory locations so this is the advantage  if one object is there to which 10000000 reference is there than it is memory utilization get improved .
+--------
+IS :- it is use to check that both obects are pointing to same object or not . It is always is going to check the refrence of the objet
+you can check like this (X is Y )
+x=100 ; y=100 ; x is y --> true
+x=True ; y = True ; z = True ; x is y --> true 
+------- 
+x=256 ; y=256 ; x is y --> true but x=257 ;y=257 ; x is y --> false 
+
+because reusing of the object is only applicable 0 to 256 
+For floating type reusing concept is not there always new object is created
+for complex data reusing concept is not there always new object is created
+
+when interpreter starts for python 0-256 creaate int objects 
+------------------------------------------------------------------------------
+---------------
+Bytes data type (same like an array but immutable )
+-----------------
+a=[10,20,30,40] ; b=bytes(a) ;type(b) --> bytes ; b[0] -- > 10
+a=[10,20,30,40.9] ; b=bytes(a) ;type(b) --> error because byte range should not be the float it range is fixed to 0 to 256
+another one is that bytes data type is immutable , once we create the bytes varabile we are not abel to chagne the data inside
+
+b[0] = 200 --> so it is not allowed and complier gives the error "object does not suport item assignment"
+
+------------------------
+bytearray (same like bytes but mutables)
+-------------------
+exact same like bytes data type but the only difference is that it support object assignment .
+-----------------------------
+ABOVE bytes and byte array we are rarely using ...
+
+
+===================================================================
+| LIST 	:- insertion order is preserved and duplicates are allowed |
+===================================================================
+
+what is meaning of insertion order is presered :- 
+l=[];l.append(10);l.append(20);l.append(10);l=[10,20,10]
+Hetergenous object is allowed here :- l.append('durga') ; l=[10,20,10,'durga']; None is also allowed 
+
+* list object is growable .
+slice operator is applicable here
+lot of methods is there for this list object , jsut use l.append , l.remove etc etc
+* list is mutable
+
+ex :- s=[10,True,'durga'] ; s1=s*2; s1 --> it runs smothly
+
+
+-------------------------------
+| Tuple :- Immutabilty is there , only difference other wise every thing is same for both list and tuple 
+------------------------------
+we can represent tuple using "()" bases
+but we can crete diffrent tuple using single tuple ; s=(10,,20,30,30) ;s1=s*2 ; --> alright
+
+---------------------------------------------------------------------------
+
+Most commonly data type is  " RANGE() "  :- if we want to reperesents the sequecne of number than we need to go for range , range data type is immutable . we are not able to change the funciton . 
+
+Form -1 :- range(10) :- represents values 0 to 9
+
+s=range(10) ; type (s) --> range ; for i in s : print(i) ; --> 0 1 2 ...9  -------s[0] --> 0 
+
+sliceing is applicable only immutabile is not applicable......
+
+Form 2 :- range(starts from , end -1) ex range (10,30) --> 10....29
+
+Form 3 : range(start with , end -1 , step ) ex range (10,50,5) --> 10 ,15,20 ....45
+
+we are not able to use range with values :)
+
+-----------------------------------------------------------------------
+|	set : i dont want duplicate and order is not mandatory go for set  |
+-----------------------------------------------------------------------
+* set elements is represented in {} ;
+
+* set object doesn't support indexing ex s[0] , s[0:1]:( it will give error that set object is not subscriptable .
+
+* set object is mutable we can change the set ex . s.add(10) --> added s.remove (40) --> removed
+
+
+==================
+frozenset :- it is exactly same as set but it is immutable , we can create frozenset  ex . s ={10,20,30} fs=fronzensen(s) ; 
+=======================
+
+Dist : <key ,value >
+
+duplicate keys are not allowed but duplicate values are allowed
+
+how to represent :- d={100:'durga',200:'sahil'}
+
+
+"Destin learning ;;;;;;;""
+
+
+set and dict uses same sylmbol ;
+
+if we are taking just {} then it is by default always treated as empty
+
+if we want to set the empty set we need to use s=set();
+as commonly we need to use dict so python gives {} as by default type (a) as dict where a={};
+
+* by default dictionary is mutable , if we want to addd element than d1={}; d1[100]='sahil'
+
+----------------------------
+===========================
+
+|		Function 			|
+==============================
+
+
+def is the keyword we are using to define the fucntion we jsut need to write once the fucntion and call it so many times .
+
+syntax is :- def f1() : 
+				a=10 // funciton is always in indentation
+
+for above we are getting the none values as a return type ..
+
+--------------
+--------------
+PASS 
+-------------
+-------------
+
+suppose i waant to define a funciton def f1() : {empty fucntion } if i dont want to do with this funciton  so this will give some error , but python we are using PASS
+
+def f1() :
+	pass
+then this will run fine ;
+
+def f1():
+	if amount > 10000
+	  do something 
+	 else :
+	   pass 
+pass is use to as an subordinate to None .
+
+----------
+Escape character :- \n,\t,\b,\f,\r,\',\",\v,\\
+
+
+-----------------------------
+Constant :- final like java ;
+------------------------------
+MAX_VALUE =10 ; in python constant type is not applicable developer has to take care of this all.
+
+
+=============
+Operators :-
+
+1) arithmetic opertors 
++ ,- ,*,/,%,//,** 
+
+s='sahil'+3 --> this is error in java it is avaiable;
++ and * is overload operator as + is use use to add srting and multify is use to duplicate the operand
+
+====================
+Relational Operator :-
+====================
+
+>,<,<=,>= :- for string also it works using unicode values 
+
+10<20<30<40 :- if all true then result is true if alteast any false result will be false .
+equaltiy operator ==> == and !=
+
+take special care :- 10==10.0 --> true ; smaller types are promoted to higher types ex 1==True 
+if any thing is not compaticle like 10=='10' then it is false . 
+
+logical operator :- and or not 
+
+-------------------------------------------------------------
+a,b,c,d=10,20,30,40 ; a,b,c,d=10,20,30 --> error is there 
+------------------------------------------------------------
+x+=10;x-=10;**=,//=,/=,*=,
+x++ -- > this termenlogy is not there in python ++x -->+(+x)
+---------------------------------------------------------
+
+Ternary operator :-
+no ternary operator is not there 
+
+
+syntax :- x=firstValue if condition else secondValue if condition2 else thrid value
+
+soln :- x=30 if 10<20 else 40
+sonln :- max = a if a>b and a>c else b if b > c else c
+sonln:- a=? , b= ? 
+print("both numbers are equal " if a==b else "first number is greater thatn  second number " if a > b else "First no is smaller than second number")
+swaping like a,b=b,a -->allowed
+
+Special operators :- there are two special opertors in python .
+1. Identity operator :-  'is' , "is not "
+2. Membership operator :- 'in' , 'not in' it is to check the members in vectors 
+ex. list1=[10,20,30,40] ; print(10 in list1)
+this in member returns the boolean value as true or false 
+
+ex. s="Hello i am sahil" ; print("the word am is " in s ) -->true
+to check multiple operator we need to use and , or 
+
+------------
+|   module  |
+------------
+group of functions ,variables ,classes is called as mmodule 
+group of module is called as libraby 
+
+lets go for math module  , how to use math modle so that we are not able to write the complex functions 
+
+synatx :- import math.sqrt  ; import math;
+
+aliasing the modules 
+syntax ;- import math as m 
+importing a specific classes 
+syntax 
+from math import sqrt,pi ;
+from math import *;
+
+------------------------------
+import and output statements  |
+------------------------------
+i want to read the data from the keyorad dynamically 
+there are two functionss are avaiable 
+raw_input() ;---> always string object compulsray we require to do type casting function .
+
+if we want to read two integers from the same input values then
+ex. a,b=[int(x) for x in input("enter the two values ").split()];
+
+* read 2 float values from the keyboraf which are specified with ',' seperation and print sum'
+ex. a,b=[float(x) for x in input("enter the two float values ").split(',')]
+
+
+-------------------
+eval() ;- ex x=eval("10+20+30") ; automatically eval change data type
+--------------------
+
+-------
+ command line argument  --> it always return the list [file name , 10 ,20 ,30]
+-----------------
+
+from sys import argv
+print(type(argv))
+-------------------------------------
+
+
+print :-
+
+form 1 :- print
+form2 :- print("with string argument");print("durga"+'sahil');print("durga"*3);print('a','b');
+form3 :any numbeer of arguments::- print("here is my name ",a,b,c);
+form4:-print("hello",a,b,sep = ':')
+form5 :- i dont wwaant every time new line so :----> print("sahil",end=' ')
+form6 :---> formatted string 
+%i --> int tye
+%d --> int type
+%f --> float
+%s --> str type
+
+print("formated string" %(variable list))
+a=10 ; print("foramted is %i " %(a))
+a=10 ,b=3.0; print("foramted is %i and %f" %(a,b))
+
+form 7 :- print function with replace ment operator : - "{}"
+----------------------------------------------
+
+name="sahil";salary =100 ; gf= "suny";
+print("hello {0} your salary is {1} and girl_friend {2} is waiting ".format(name,salary,gf));
+print("hello {} your salary is {} and girl_friend {} is waiting ".format(name,salary,gf));
+print("hello {x} your salary is {y} and girl_friend {z} is waiting ".format(a=name,b=salary,c=gf));
+
+
+
+===============
+|Flow Control |
+===============
+3 types of the flow control 
+1) conditional/selection statements ;- 
+
+if x:	
+option -1
+else :
+option -2
+
+if x :
+	action-1
+elif x:
+	action-2
+elif x:
+	action-3
+
+
+if 
+if-else
+if-elif-else
+
+2.) iterative statements 
+------------------------
+
+for and while are available
+
+for x in l :
+	based on some condition 
+	break // to break the some condition
+	or 
+	continue // to make it continue
+	or 
+	pass // to ignore 
+3. tranfer statements :- break , continue , pass
+
+
+1)...............
+name = 'sahil'; surname ='tayde' ; if name == surname : print ('his name is good ');
+
+
+2).................
+for eachelement in sequence 
+	do some action
+ sequnce should be anything --> string , list ,tuple etc etc
+
+for i in range(10):
+	most commonly use funciton;
+
+for x in range(1,21,2) : print(x) ; --> write only odd numbers.
+
+for x in range(10,0,-1) : print('output in descending order',x);
+-------------
+WHILE 
+-------------
+while condition :
+ 	body --> until the condition return false 
+
+ name =""
+ while name !="durga"
+ 	print("enter the name durga")
+
+for i in range(4) :
+ for j in range(4):
+ 	print("i={} and j={}".format(i,j));
+
+n=int(input("enter any number"));
+for i in range(1,n+1) :
+    for j in range(1,n+1):
+        if i == 1 or i == n :
+            print("*",end="")
+        else :
+            if j == 1 or j == n :
+                print("*",end="")
+            else :
+                print(" ",end="")
+    print()
+
+--------------------------
+n=int(input("enter any number"));
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i==1 or i==n or j==1 or j==n or j==i or j==n-i+1:
+            print("*",end='');
+        else :
+            print(" ",end='');
+    print();
+    ----------------------------------
+
+    ---------------------
+    while 
+    --------------------
+    x=1
+    while x <= 10 :
+    print(x)
+    x+=1
+-------------------------------------------
+
+
+-------
+break
+------
+i=0
+while True :
+ print("hello")
+  i+=1
+  if i == 5
+   break
+  -----------------------
+  Tranfser statements 
+  1. break
+  2.continue
+  3.pass
+
+  ----
+ In python language there is one more specility 
+ for - else
+ while -else
+ try-except-else-finally
+
+above statment will use loop-break-else
+
+ if break not executed then break is not going to executed then else is going to executed , else is use with the loop without break
+-------------------------------
+pass is a keyword in python
+------------------------------
+-->if in our programming if any code is not going to do anthing then we are going to use passs
+
+ex. if True : pass
+     else :
+     print("hello")
+     class P :
+      def m1() : pass 
+      class C(P):
+       def m1():
+       statment 1
+       statment 2 
+
+----------
+del ;- del is keyword in python
+---------
+a=10 ;;;output :- a = 10 : del a : output :- trace back error
+x,t=1,2 ; del x,y
+None vs del : node will not remove varaible only removes object
+
+======================================================================
+STRING Data Type
+----------------
+s='''sahil /n tayde''' ;
+
+How to access characters from strings ::
+1) by using index
+2)By using sclice operator 
+
+1)s='durga' : print(s[0])
+
+a='sahil'
+i=0
+ for x in a :
+   print("print presrnt at positive index {} and at negative index :{} is {}".format(i,i-len(a),x))
+   i+=1;
+
+   -------
+ 2) Slice Operator :-s[beginIndex:endIndex-1:step]
+ s=0123456789
+  s[::-1]output -->987654321
+
+  if step is there it will move from begin to end-1 if nragtive begin to end +1
+
+  In forward direction :-
+  default value for begin :0
+  default value for e nd = lengt of the string
+  default value for step : 1
+
+  In backward direction :-
+
+default value for begin index :-1
+defulat value for end := -(legth of the string +1)
+
+video no:-20
+----  ------------------------
+s='sahill is there'
+sub='is'
+if sub in s :
+  prin
+s=['a','b','c']
+a='f'
+if a in s:
+    a.strip();
+  ------------------------
+  strip();lstrip();rstrip() :- remove the spaces
+  find(substring);index();s.count(substring,begin,end-1)
+
+replace a string with other string
+s.replace("olstring","newstring")
+s.split(sepratior) -- > default operator is space it return the list of the objject
+how we acan differentitate sep ='' and s.split()
+print(x,y,z,a,sep = ''); split is completely different
+-------------
+rsplit(sepreator , after how much output it should stop) -- > it takes maximum of two parameter , reverse of the split
+
+--------
+join() --- > syntax < a = '-'.join(objectname)>
+------
+' '.join(a) ; '-'.join(a);'$'.join(a)
+
+chaniging the case of the string :
+-----------------
+upper ()==> to convert it to upper case
+lower()==> to lower 
+swapcase() == > 
+title() == > "sahil tayde" to "Sahil Tayde"
+capitalize() == > "sahil tayde" to "Sahil Tayde"
+
+checking the staring and ending point of the string:
+
+s.startwith('learing')
+s.endwith('learing')
+--------------------------
+
+Q.1 ) erawtfos arguD
+Q.2) Software Durga
+Q.) agruD erawfoS
+Q.) to print character at odd postition and even position thee given string  :- s[::2] s[1::2]
+--> s=input("enter a some string")
+      i =0 
+      print ("the chaacter at even postion")
+      while i < len(s):
+       print(s[i],end='')
+        i=i+2
+
+Q) input -B4A1D3
+   output - ABD134
+
+   use isalpha() function
+
+   s1=s2=output=''
+   for x in isalpha():
+       s1=s1+x;
+      else
+       s2=S2+x;
+   for x in sorted(s1) :
+
+Q.) input : a4b3c2
+	output : aaaabbbcc
+
+-------------
+ord(char) :- give the unicode of that chr
+chr(ord) :- give the alpha bet of that unicode
+
+
+collection
+------
+**LIST**
+1) Insertiion order is preserved and duplicate allowed and hetrogenous object is allowed happily go for list , it is growable , 
+list is not mutable 
+
+syntax --> l=[] or l=[10,20,30,40,50,60] or l=eval() or l=list(sequence) or l=s.split(seperator) 
+-----------------------------------------------
+nested lists ==> [10,20,[30,40]]
+how we can use list -> using index in forward and reverse 
+
+list vs immutability 
+-----------------
+how to traverse in list :- by usning while loop :-->
+list=[1,2,3,4,5,6,7,8] # now i want to print each and every element in lop 
+i=0
+while i < len(list):
+ print(list[i])
+ i=i+1
+for i in s :
+  print(i)
+
+-----------------------------
+imporant functions of the list 
+
+in python we have to use modules,fuctions and methods but in java we have fucntions.
+but there is small difference btween fucntions and methods 
+we need to call method with reference to class  -- > s=Student() ; s.info()
+
+1. len(list) -- > this is a functions
+2. l.count() --> l.count(str) --> this count is also function  
+3. l.lastindex() , l.index() , l.rindex() --  
+
+Manipulating elements of list :
+----------------------------------
+l= [];l.append(10);l.append(20); what is purpose of the append methos is to app all elements to list
+** adding element at specified at position 
+l=[]; l.append(10); l.insert(index,element); l.inset(50,777) -- > it will append the value at last , to inser value at first either use l.insert(0,safa) or l.(-10,343434)
+
+3) extend() :-  l=["chicken","mutthon","fish"] ; l2=["KF","RC","FO"]
+my requirement is all the elements present inside l1 to l2 so 
+l1=extend(l2) ;---- append to add one data add all the method use extend
+clear() : - to remove all the vaulues
+remove() vs pop(index) --> remove is use to remove the element and pop is use to remove and return last element..
+reverse() :- reverse the list
+sort () :- sort the order of the list bbut only for homogeneous objexts , you can use sort(reverse=True)
+aliasing
+copy==>cloning
+x=y.copy() ==> directly clone it 
++ operator ==> both should be list 
+* ==> list * int (value)
+
+comparing list objects :
+------------------------
+x=['rat','cat'];y=['rat','cat'] ; print(x==y) ; print(x!=y)
+
+rules :- 
+1the number of the elements must be equal 
+2the order should be same 
+3.the contents sould be same (including case also)
+
+==,<=,>=,> ,< ==> 
+ex :- x=[50,20,30];y=[40,90,100,120]; print(x<=y)
+above answer is true it is not going to do one by one  comparison   
+ex. x=[50,20,30];y=[50,90,100,120]; print(x>y) -->false 
+it will check one by one elements from starting
+
+
+Nested  list :- list inside list
+====================================
+x=[10,20,[20,30]] = print(x[2][0])-->20
+
+list comprehensions:
+--------------------------
+  l1=[x*x for x in range(1,11)][1,4,9,16,20,.....]  ==> after for loop which operations you need do that in list.
+  l1=[expression for x in range(1,11)]-->>>>[1,4,9,16,20,.....]
+  l1=[expression for x in range(1,11) if condition ]
+  l1=["hello"*x for x in range(1,11) if x!= 0 ] --> ['hello','hellohello','hellohellohello'] ===> first do first loop the check the if condition and then go for expression
+
+words = "i am quick learner".split()
+l1=[[x.upper(),len(x)] for x in words ] ==> please take a special care when we are using two parameter we need to take list [x.upper(),len(x)] likewise
+
+--------------
+Tuple :-
+-------------
+tuple is immutable but the list is mutable . except that all properties is same .only thing is we are not able to change the tuple values
+
+syntax:- t=() ; t(10,)---> it is to give "," for single value is compulsary other vise it will treat it as int type 
+t=(10,20,30) ; t=tuple(sequence)
+
+Access the elements of the tuple 
+-------------------------
+* index or slice 
+
+import functions of the tuple ;-
+1.len() 2. count()
+ 3.index() --> what is the first occurnce of the value but if the value is not there it wl give error , so compulsory we need to use membership oerator to check that respective value is avaliable in tuple
+ 4. sorted() : to sort elements based on natural sorting order 
+ t=(10,20,03);
+ l=tuple(sorted(t,reverse=True))
+
+min():- max():
+cmp(): it is only use in python 2 not in python3 . syntax cmp(t1,t2) : - if both tuples are same then return 0 , if first tuple is less than second then reutrn -1 , if first tuple is grater than second one then retrun +1..
+
+t=(10,20,30);t1=(20,30,40) ; print(t>t1);
+
+tuple packing and tuple unpacking :-
+------------------------------------
+packing :- grouping into single;
+a=10,b=20,c=30;
+t=a,b,c ; print(t) : --tuple 
+
+
+a=10,b=20,c=30;
+t=[a,b,c] ; print(t) : -- list 
+
+upackking :- t=(10,20,30,40,50); a,b,c,d,e = t ; print(a,b,c,d);
+
+the above is also apllicable for list .
+
+t='sahil'; a,b,c,d,e = t ; print(a,b,c,d);
+
+unpacking is applicable for any sequesnce 
+
+
+Tuple comprehension :-
+---------------
+l=[x*x for x in range (1,11)] print(l)
+
+Tuple compreshsion is not suppoorted in pyhton
+
+even if will work the result is not tuple 
+----------------------------------------------------
+
+If order is not important then go for set :
+for set duplicates are not allowed .
+s={10,20,30} : order is not there so slice opetor is not there in set , indexing is not applicable .
+
+set object is mutable . there are fex methods .
+we can create the list into set . no isues, bbut only unique elements will be there .
+
+
+IMPorant methods in set :- 
+-------------------------
+
+s=set(); s=s.add(10);--> s.add(it is always going to take single argument)
+s.update() ; what is difference between add and update.
+if you want to add single element then go for the s.add but if you want to update the list ,set like add_all in java,sequence java for list , tuple.
+
+
+s={10,20,30} ; l=[50,040,60] ; s.update(l) ;s.update(l,range(1,4),'durga')---valid
+s.update('df'+'ef')-->valid
+
+3copy()--> dosent contain  any argument . to create the duplicate objects . same as cloning concept in java
+
+4.pop()--> to remove some random element and return the elements . 
+5.remove(one argument) -->  if we want to remove any perticaular element.
+6. discard (one argumanet) --> if we want to remove any particular element but if element is not there then it will not give any error .
+7. clear() :- to clear the set .
+
+mathematcal operations :-
+
+1) union() :- s1.union(s2); print(s1|s2)
+2) intersection():- s1.intersection(s2) ;print(s1&s2)--> return all common element
+3) difference() :- retun that element that present in s1 but not in s2 .print(s1-s2);
+4) s1^s2 ; s1.symmetric_difference(s2) ;- the discard which is common in both
+5) in or not in operator --> to check wheter perticular object is available or not .--> print('d' in s1);
+
+SET comprehension :-
+-----------------------
+s={ x*x for x in range(6)}
+
+
+Q. to elimintae dulicates in the list ?
+l=eval(input(enter some list of values))
+s=set(l)
+print(s);
+
+or 
+
+l=eval(input("enter the list of elemeents"))
+l1=[];
+for x in l :
+ for x not l1 :
+    l1.append(x);
+
+
+Dictionary Data Structure :-
+----------------------------
+the group of values are key-value pair ;
+
+* index and slocing is not applicable for the dicitory .
+* order is not preserved .
+* key dupllication is not allowed and value may or may not be duplicate .
+
+
+syntax :- d={}; d=dict(); d[key]=value ;
+
+ex.1 ) d={} , d[100]='durga';d['rich']='cohen' ; d={'a':'apple','b':'banana','c':'cat'}
+
+
+How to access elements from the dicitonart :
+--------------------------------------------
+
+--> d={'a':'apple','b':'banana','c':'cat'}
+--> d['a'] --> ouptut --> apple
+
+
+d.has_key(100) --> to check whter the key is present or not in dicitonary
