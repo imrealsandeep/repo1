@@ -1,0 +1,48 @@
+Git basic commands process
+git --version
+git config --global user.email 'your@mmail.com'
+git config --global user.name 'name'
+git init
+git status
+git add
+git commit -m "message"
+git remote add origin https://github.com/imrealsandeep/repo1.git
+git push -u origin master
+
+#Create Branch
+git branch "branch name"
+#Checkout Branch
+git checkout "branch name"
+#merge Brnach to master (first check out to master to merge in master)
+git merge "branch name"
+#delete branch
+git braanch -d "branch name" --delete from local
+git push origin --delete "branch " --delete from remote
+
+# send email from github
+Github - Repository-Settings -Integration & services - add email
+
+#tag
+git tag tag_name -- create tag normal tag --light tag 
+git tag --list
+git tag -a tag_name -m "tag for release" --annoted tag with all details and stored
+git show tag_name
+git tag -l "v1.*"
+git push origin tag_name
+git push origin -tags ----push all tags
+git push --tags ------push all tags
+git tag -d tag_name
+git tag --delete tag_name
+git push origin -d tag_name
+git push origin --delete tag_name
+#we cannot check out tags in git
+#we can create a branch from tag and checkout the branch
+git log #checksum value of commit
+git checkout -b branch_name tag_name
+#we can create a tag from some past commit using checksum value of commit
+git tag tag_name checksum(reference of commit) 
+
+ 
+
+
+
