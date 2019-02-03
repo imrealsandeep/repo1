@@ -1,2 +1,329 @@
 Daily Status file
 03022019 https://www.youtube.com/watch?v=meRc5MSrOO0 - Certification
+
+Syllabus of AWS Course in Chennai
+
+AWS Solution Architect Certification Training Syllabus
+Module 1: Basics of Computer and Networking
+Introduce Computers and Components
+Introduce Networking Models and Concepts
+IPv4, LAN, WAN, Subnets, Switches, and Routers
+Module 2: Fundamentals of Linux
+Introduction to Operating System
+Distributions of Linux OS
+Linux Vs. Windows
+Shell Environments
+Linux Booting and Process
+The directory structure of Linux
+Files, Files types and permissions
+Basic Linux commands and Administration
+User Management
+Networking
+Storage – Disks and partitions
+Package management
+Authentication – passwords, SSH Keys
+Understanding of Linux troubleshooting protocols
+Services: Apache, Mysql, NFS, and FTP
+Basic Monitoring Tools and Log.
+
+Module 3: Basics of virtualization
+Virtualization and cloud computing
+Virtualization terminologies
+What is Hypervisor
+Different approaches to Virtualization
+Virtual Machine Concepts
+Benefits of Virtualization
+Different types of Virtualization
+Datacenter Virtualization, Network Virtualization, Desktop Virtualization
+
+Module 4: Cloud Computing
+Introduction to Cloud Computing
+Why Cloud Computing?
+Benefits of Cloud Computing
+Types of Cloud Computing
+Public Cloud
+Private Cloud
+Hybrid Cloud
+Community Cloud
+Differences between Public, Private and Hybrid Cloud Platforms
+Delivery or Service models of Cloud Computing
+Infrastructure as a Service
+Software as a Service
+Platform as a Service
+Horizontal Vs vertical scaling
+Security
+Costing Model
+
+Module 5: Introduction to Amazon Web Services
+History and Evolution of AWS
+Overview of AWS data centers across the globe
+Regions and Availability Zones
+Overview of AWS products and Services
+AWS account plans and split-ups
+AWS Free tier limits and Quotas
+Accessing AWS – Management Console, Command Line Interfaces
+Hands-on Lab
+Setup or Signup AWS free tier account
+Exploring products & services of AWS in the Management Console
+
+Module 6: Compute Services
+Introduction and features of EC2
+Amazon Machine Images
+Working with AMI – Public Images and Private Images
+CPU and Processors of AWS Cloud Platform
+Machine type classification in EC2 and use cases of each machine type
+EC2 Instance storage, network
+The configuration of EC2 Instances – Placement Groups, Capacity reservation, Tenancy, Shutdown behavior, Metadata
+Security groups
+Private IP, Public IP, Elastic IP
+Elastic Network Interfaces
+Key pairs
+Resource Tags
+Hands-on Lab
+Creation of a Linux EC2 Instance and accessing it
+Creation of a Windows EC2 Instance and accessing it
+Build a Private/Custom AMI
+Launch an EC2 Instance from the Private/Custom AMI
+Cleanup
+
+Module 7:  Pricing Models & Billing
+Introduction to Pricing Models of EC2 Instances
+On-demand Instances Model
+Reserved Instances Model
+Spot Instances Model
+On-demand Vs. Reserved Vs. Spot Instances
+Dedicated Hosts & Dedicated Hardware’s
+AWS Marketplace
+Overview of AWS Pricing Calculator
+Billing accounts
+Budgets
+Quotas and limits
+
+Module 8:  Elastic Block Store (EBS)
+Introduction to Elastic Block Store
+EBS Volume Types
+Differentiation of EBS Volume Types – IOPS, Throughput, Performance Factors
+Use cases of EBS Volumes
+Encryption
+Snapshots – Root Volumes and Data Volumes
+Creating Volumes and AMI’s from Snapshots
+Life Cycle Manager
+RAID 0,1
+Hands-on Lab
+Create and attach volumes to a Windows/Linux Instances
+Create partitions from the attached volume in the Windows/Linux Instances
+Create Snapshots from the attached volume(Windows/Linux)
+Restore and Test the snapshots(Windows/Linux)
+Create AMI from the Snapshots
+Cleanup
+Module 9: EFS
+What is EFS
+Use cases of EFS
+Hands-on Lab
+Creation of EFS
+Launching 2 EC2 Linux servers and mounting EFS volume in it
+Module 10:  Simple Storage Service (S3)
+Introduction to Simple Storage Service (S3)
+The architecture of Simple Storage Service (S3)
+S3 buckets and Objects
+Features of S3 Buckets
+Versioning, Logging, Access control
+Encryption
+S3 bucket permissions
+Static Website Hosting
+S3 Transfer Acceleration
+Backup and Archiving using Glacier Storage
+Life cycle management of Objects
+Hands-on Lab
+Create S3 buckets, upload objects, download objects with restricted permissions
+Test and Try Object versioning by uploading objects with different versions
+Deploy and host a static website in S3
+Set object lifecycle policy to move the objects to Glacier Archive
+Cleanup
+Module 11:  Virtual Private Cloud (VPC)
+Introduction to Software-defined networking
+Internet Protocols
+IP Addressing Classes, Schema, IP Ranges
+Overview of AWS VPC
+Default Vs. Custom VPC
+Components of VPC – Subnets, Route Tables, Gateways, Routes
+Security Groups, Network ACL’s
+Public and Private Subnets
+Network Address Translation
+DHCP options sets and DNS
+Introduction to VPC Peering
+Hands-on Lab
+Create a Custom VPC with private and public subnet
+Deploy an EC2 Instance in the public subnet and try to access it from the internet
+Deploy an EC2 Instance in the private subnet and try to access it from the internet
+Cleanup
+Module 12:  Virtual Private Network (VPN) & Direct Connect
+Introduction to Virtual Private Network
+Overview of Direct Connect and Its Advantages
+Setup and Architecture of Direct Connect
+Module 13: Elastic Load Balancer
+Overview of Elastic Load Balancer
+The necessity of Elastic Load Balancer
+Internet Facing Load balancer, Internal Facing Load balancer, Cross-Zonal Load Balancer
+Application Load balancer (https/http)
+Network Load Balancer (TCP/UDP)
+Choosing the right Load Balancer
+Components of a Load Balancer
+Listener and Target group configurations
+Health checks
+DNS setup for ELB
+Hands-on Lab
+Create two EC2 instances with web servers installed in it.
+Configure the web servers with unique html page in each web servers
+Create an application load balancer with listeners and Target groups.
+Attach EC2 instances in the Target group and test the application load balancer
+Cleanup
+Module 14: Auto Scaling
+Getting started with Auto Scaling
+Entities of Auto Scaling
+Auto Scaling groups
+Launch Configurations
+Launch Templates
+Auto Scaling policies
+Manual Vs. Dynamic Autoscaling
+Hands-on Lab
+Create Auto scaling Launch Configurations
+Create the Autoscaling groups using the launch configurations
+Test Auto-scaling groups against the Autoscaling policies defined
+Cleanup
+Module 15: Route53
+What is Amazon Route 53?
+Features of Route53
+Explain with demo Domain Name registration process
+Types or classification of Domains
+Domain registration, Domain Hosting and Domain transfer
+Public and Private hosted zones
+Traffic Routing and policies
+Recordsets
+Health check of Resources
+Hands-on Lab
+Deploy a static website in AWS
+Configure the DNS name of the website using Amazon Route 53
+Cleanup
+Module 16: Relational Database Services (RDS)
+Introduction to databases
+Overview of structured and unstructured data
+Introduction to database services of AWS
+Introduction to Amazon RDS
+Concepts of Amazon RDS services
+Different types of database engines supported in AWS
+Database machine types, Storage, security groups
+Database replica’s
+Database Encryption
+Snapshot backups – automatic and manual snapshots
+Manage RDS Database access using IAM
+Database maintenance and upgrades
+Hands-on Lab
+Install database client in the local machine
+Create an RDS instance with the required database engine
+Connect RDS using the database client
+Cleanup
+Module 17: Identity and Access Management
+Introduction to IAM
+Users and Groups
+Permissions and Policies
+IAM Roles, Role-based access
+User access – Programmatic access, Management console access
+Access keys and Secret keys
+AWS Organizations
+Single-Sign-on
+Multi-Factor Authentication
+Hands-on Lab
+Create groups and users
+Assign permissions and policies to the groups or users
+Log in as a user using IAM link and test the user’s permissions
+Enable MFA and testing it
+Cleanup
+Module 18: Cloud Front
+Introduction to Cloud Front distributions
+Cloud Front Edge locations
+Working with Cloud Front Distributions
+Access control and Security
+Content Caching
+Hands-on Lab
+Create a cloud front distribution
+Test the cloud front distribution
+Cleanup
+Module 19: Simple Notification Services
+Introduction to Simple Notification Services
+Components of SNS
+Topics
+Publishers
+Subscriptions
+Hands-on Lab
+Create a topic and register a subscriber to that topic
+Publish a message to the Topic and check the subscribers are receiving the same
+Cleanup
+Module 20: Simple Queue Services
+Introduction to Simple Queue Services
+Standard Queues and FIFO Queues
+Queue features and limits
+Queue encryption
+Message retention policies
+Hands-on Lab
+Create a Queue and subscribe to an SNS topic
+Publish a message to SNS topic
+Review or Purge the messages from the Queue
+Cleanup
+Module 21: AWS Cloud Watch Monitoring and Logging
+Introduction to Cloud watch
+Cloud watch Monitoring
+Dashboards
+Metrics, data points, widgets
+Cloud watch alarms
+Notifications
+Cloud watch Events and Logs
+Creating Billing Alert
+Hands-on Lab
+Create a dashboard to monitor AWS resources and explore the metrics
+Add a resource metric to the dashboard and monitor it.
+Create Cloud watch Alarms and set a trigger to send SNS notifications via email
+Cleanup
+Module 22:  Cloudtrail
+Introduction to Cloudtrail
+Use Cases
+Module 23: Lambda
+What is Lambda function
+How to use the lambda function
+Use case of the lambda function
+Hands-on Lab
+Lambda function creation
+Lambda triggers and demo
+Lambda with API Gateway
+Module 24: CloudFormation
+How to create an environment using CloudFormation
+What is cloud formation stake?
+Module 24: Hands-on Lab
+demo using sample CloudFormation task with the creation of VPC subnets and launching EC2 instance using it
+Module 25: Trusted advisor
+Use cases of Trusted Advisor
+Cost Optimization example
+Security example
+Fault tolerance example
+Module 26: Migration Service: SNOWBALL
+Overview of Migration services
+Use case of SNOWBALL
+Module 27: Storage Gateway
+File gateway
+Volume gateway
+Tape gateway
+Use cases
+Module 28: CERTIFICATE MANAGER
+creating SSL certificate
+the use case of AWS Certificate manager
+Module 29: Elastic Cache, DynamoDB and Redshift
+Overview of Elastic Cache
+Overview of DynamoDB
+Overview of Redshift
+Overview of Kinesis
+Module 30: Well-Architected Framework: The 5 Pillars of the AWS
+Operational Excellence
+Security
+Reliability
+Performance Efficiency
+Cost Optimization 
