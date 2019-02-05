@@ -1,0 +1,230 @@
+import random
+import sys
+import os
+
+Datatypes
+Numbers Strings Lists Tuples dictionaries
+
+Operators
++-*/%**//
+
+Numbers
+num=8
+
+String
+name="String"
+.captalize
+.find
+.isalpha
+.isalnum
+.split
+.replace
+.strip
+.split
+
+len
+
+LIST
+grocery_list=['Juice', 'Tomatoes', 'Potatoes']
+.append
+.insert
+.remote
+.sort
+.reverse
+
+del
+
+len
+max
+min
+tuple
+
+TUPLE
+
+grocery_list=('Juice', 'Tomatoes', 'Potatoes')
+list()
+len()
+min
+max
+
+Dictionary
+
+grocery_list={'Green' : 'Juice', 'Veg' : 'Tomatoes', 'Veg' 'Potatoes'}
+len
+
+get
+keys
+values
+
+If elif else
+
+age=21
+if age > 16 :
+	print('16')
+elif age >= 16:
+	print('random')
+else : 
+	print('final')
+
+for x in range(0, 10):
+	print(x, ' ', end="")
+	
+grocery_list = ['juice', 'tomato']
+
+for y in grocery_list:
+	print(y)
+
+	
+RANDOM
+
+random_num = random.randrange(0,100)
+
+while(random_num != 15):
+	print(random_num)
+	random_num = random.randrange(0,100)
+
+i=0;
+
+while(i <= 20):
+	if(i%2 == 0):
+		print(i)
+	elif(i == 9)
+		break
+	else
+		i += 1
+		continue
+	
+
+import os
+File
+
+ab+ read and append
+
+ 
+test = open("file_name","wb")
+.write(bytes("", 'UTF-8'))
+
+.close()
+
+test = open("file_name","r+")
+text_file= test.read()
+
+os.remove("test")
+
+CLASS
+
+class Animal
+	_name = ""
+	_height = 0
+	
+	def __init__(self, name, height):
+		self._name = name
+		self._height = height
+	
+	def set_name(self, name):
+		self._name = name
+		
+	def get_name(self):
+		return self._name
+		
+	def get_type(self):
+		print('Animal')
+		
+	def to_String(self):
+		return "{} is {} cm tall and {} kilograms and say {}".format(self._name,self._height)
+		
+cat = Animal('Whiskers',22)
+print(cat.toString())
+
+class Dog(Animal):
+	_owner = ""
+	
+	def __init__(self, name, height):
+		self._owner = owner
+		super(Dog, self)._init_(name, height)
+
+	def set_owner(self, owner):
+		self._owner = owner
+		
+	def get_owner(self):
+		return self._owner
+		
+	def get_type(self):
+		print('Dog')
+		
+	def to_String(self):
+		return "{} is {} cm tall and kg and says {}".format(self._name,self._height)
+		
+	def multiple_sounds(self, how_many=None):
+		if how_many is None:
+			print(self.get_sound())
+		else:
+			print(self.get_sound() * how_many)
+			
+spot = Dog("Micky" ,56)
+
+print(spot.toString())
+
+
+class AnimalTesting:
+	def get_type(self, animal):
+		animal.get_type()
+		
+test_animals = AnimalTesting()
+
+test_animals.get_type(cat)
+test_animals.get_type(spot)
+
+spot.multiple_sounds(4)
+spot.multiple_sounds()
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
